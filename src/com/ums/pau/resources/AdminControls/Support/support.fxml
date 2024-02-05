@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<Pane prefHeight="800.0" prefWidth="975.0" style="-fx-background-color: #05668d;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ums.pau.resources.AdminControls.Support.SupportController">
+    <Label layoutX="386.0" layoutY="51.0" text="Support" textFill="WHITE">
+        <font>
+            <Font name="Chilanka Regular" size="54.0" />
+        </font>
+    </Label>
+    <ScrollPane cache="true" hbarPolicy="NEVER" layoutX="38.0" layoutY="167.0" prefHeight="456.0" prefWidth="900.0" style="-fx-background-color: #fff;">
+        <VBox fx:id="msgVBox" prefWidth="900.0" spacing="10.0" />
+    </ScrollPane>
+        <JFXTextArea fx:id="msgTF" focusColor="#638dff00" layoutX="290.0" layoutY="653.0" prefColumnCount="80" prefHeight="80.0" prefWidth="327.0" style="-fx-prompt-text-fill: #838383; -fx-hbar-policy: never; -fx-vbar-policy: never; -fx-background-color: #fff; -fx-background-radius: 20; -fx-border-radius: 20;" unFocusColor="#eb676700" wrapText="true">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+        </JFXTextArea>
+        <JFXButton alignment="CENTER" contentDisplay="RIGHT" layoutX="632.0" layoutY="701.0" onAction="#sendMsg" prefHeight="4.0" prefWidth="70.0" style="-fx-background-color: #64a5fb;" text="Send" textFill="WHITE">
+            <graphic>
+                <MaterialDesignIconView fill="WHITE" glyphName="SEND" size="15" />
+            </graphic>
+        </JFXButton>
+</Pane>

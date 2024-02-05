@@ -1,0 +1,92 @@
+#std-btn:hover {
+    -fx-background-color: #4444ff;
+}
+
+#BTNS:hover {
+    -fx-background-color: #ffa35f;
+}
+#selectorBTN:hover {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30;
+    -fx-text-fill: #04cca1d7;
+}
+#adButton:hover {
+    -fx-background-color: white;
+    -fx-border-color: #111155;
+    -fx-border-radius: 10;
+}
+#adButton:hover .glyph-icon {
+    -fx-font-size: 14;
+}
+#circle:hover {
+    -fx-fill: #111155;
+    -fx-text-fill: white;
+}
+
+#item {
+    -fx-padding: 5;
+    -fx-min-width: 110;
+}
+
+#nameItem {
+    -fx-padding: 5;
+    -fx-min-width: 230;
+}
+
+#search:hover {
+    -fx-fill: deepskyblue;
+}
+#hBox-list {
+    -fx-text-fill: #5a5a5a;
+    -fx-font-size: 14px;
+    -fx-background-color: #dfdcda;
+}
+#hBox-list:hover {
+    -fx-font-size: 15px;
+    -fx-background-color: #555599;
+}
+
+#hBox-list:hover #item {
+    -fx-text-fill: #ffffff;
+}
+
+#hBox-list:hover #nameItem {
+    -fx-text-fill: #ffffff;
+}
+#hBox-list:hover #itemS {
+    -fx-text-fill: #ffffff;
+}
+
+#sep-pane {
+    -fx-background-color: #555599;
+}
+
+#itemS {
+    -fx-padding: 5;
+    -fx-min-width: 164;
+}
+
+#itemH {
+    -fx-padding: 5;
+    -fx-min-width: 164;
+    -fx-text-fill: #dfdcda;
+    -fx-font-size: 15px;
+}
+
+#hBox-header {
+    -fx-background-color: #222233;
+}
+
+Pane Pane .scroll-pane {
+    -fx-padding: 50;
+    -fx-alignment: center;
+}
+
+#listItem:hover {
+    -fx-background-color: #555599;
+    -fx-text-fill: white;
+}
+#listItem:hover #itemChild{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
